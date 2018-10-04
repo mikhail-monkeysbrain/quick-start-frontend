@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+// ткстовый пример переопределения сетки
+$grid-breakpoints: (
+  xs: 0,
+  sm: 481px,
+  md: 769px,
+  lg: 1155px
+);
+
+$container-max-widths: (
+  sm: 481px,
+  md: 769px,
+  lg: 1155px
+);
+
+@import "~bootstrap/scss/bootstrap";
+

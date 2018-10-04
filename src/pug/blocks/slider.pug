@@ -1,0 +1,14 @@
+.row
+  .col-1
+  .col-10
+    .slider-top
+      each number in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+        .slider-top--item
+          .slider-top--count.text-center
+            span= number
+            | |
+            span 9
+          .text-center
+            i.fa.fa-search(aria-hidden='true')
+            i.fa.fa-close(aria-hidden='true')
+            i.fa.fa-vk(aria-hidden='true')
